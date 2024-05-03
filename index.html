@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <section>
+        <button type="button" class="absolute right-8 top-8 animate-bounce" id="toggle-btn"><i
+            class="fa-solid fa-bars text-2xl"></i></button>
+        <div class="px-10 shadow-md w-1/4 h-screen grid duration-1000 -translate-x-full " id="side-menu">
+            <div>
+                <div class="flex items-center justify-between">
+                <img src="./images/logo.png" alt="logo" width="100px">
+                <button type="button" id="cancel-btn"><i class="fa-solid fa-xmark text-red-500 text-3xl"></i></button>
+            </div>
+                <ul id="menu" class="*:font-medium *:text-lg divide-y *:py-5">
+                    <li class="hover:text-orange-800"><a href="">Home</a></li>
+                    <li class="hover:text-orange-800"><a href="">About</a></li>
+                    <li class="hover:text-orange-800"><a href="">Services</a></li>
+                    <li class="hover:text-orange-800"><a href="">Blog</a></li>
+                    <li class="hover:text-orange-800"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="lg:flex justify-evenly items-end mb-10">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-whatsapp"></i></li>
+            </ul>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
